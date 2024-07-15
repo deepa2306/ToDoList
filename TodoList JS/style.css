@@ -1,0 +1,59 @@
+
+body{
+    margin:0;
+    background-color: rgb(7, 7, 7);
+}
+
+#wrapper {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:500px;
+    width:500px;
+    background:linear-gradient(rgb(140, 140, 164) ,rgb(172, 52, 166));
+    text-align: center;
+    color:white;
+    border-radius:10px; 
+       }
+
+#inputwrapper
+{
+    position:relative;
+    display:inline-block;
+    background-color: rgb(163, 197, 225);
+    border-radius: 15px;
+}
+
+input{
+    
+    border:none;
+    border-style: none;
+   background: transparent;
+   height: 30px;
+   border-radius: 15px;
+}
+button{
+    background-color: rgb(215, 138, 192);
+    color:white;
+    border-radius:50px ;
+    border-style: none;
+    height: 33px;
+    width:75px;
+}
+#todoList{
+    color:white;
+    font-size:28px;  
+    margin-top:10px; 
+    overflow-y: scroll;
+  
+}
+
+#todoList p{
+  margin:10px 0px;
+  
+}
+
+ p:hover{
+  cursor: pointer;
+} 
